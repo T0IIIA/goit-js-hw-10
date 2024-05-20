@@ -58,6 +58,18 @@ li:hover {
   color: #FFFFFF;
 }
 
+section a {
+  padding: 2px 5px;
+  border: #5e5d5d 1px solid;
+  border-radius: 6px;
+  background-color: #ece7e7;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+}
 
+section a:hover {
+  background-color: #5e5d5d;
+  box-shadow: 1px 1px 3px 0 #00000069;
+  color: #FFFFFF;
+}
 
 

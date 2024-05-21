@@ -10,10 +10,28 @@
     <script type="module" src="./js/2-snackbar.js"></script>
   </head>
   <body>
-    <section>
+    <a href="./index.html">Go to home</a>
 
-      <a href="./index.html">Go to home</a>
+      <form class="form">
+        <label>
+          Delay (ms)
+          <input class="delay" type="number" name="delay" required />
+        </label>
 
-    </section>
+        <fieldset>
+          <legend>State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button type="submit">Create notification</button>
+      </form>
+
   </body>
 </html>

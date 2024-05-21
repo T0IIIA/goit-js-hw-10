@@ -50,7 +50,7 @@ li:hover {
   margin: 8px;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: rgb(145, 63, 63);
   transition: color 0.3s;
 }
 
@@ -58,17 +58,15 @@ li:hover {
   color: #FFFFFF;
 }
 
-section a {
+body a {
   padding: 2px 5px;
-  border: #5e5d5d 1px solid;
-  border-radius: 6px;
+  border-radius: 5px;
   background-color: #ece7e7;
-  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  transition: all 0.3s ease;
+  background-color: transparent;
 }
 
-section a:hover {
-  background-color: #5e5d5d;
-  box-shadow: 1px 1px 3px 0 #00000069;
+body a:hover {
   color: #FFFFFF;
 }
 

@@ -8,14 +8,40 @@
     
     
     
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-e1c1454c.css">
+
+    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/1-timer-652cafa1.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-bc59b694.css">
   </head>
   <body>
+
+    <a href="./index.html">Go to home</a>
+
     <section>
+      <input type="text" id="datetime-picker" />
+      <button type="button" data-start>Start</button>
 
-      <a href="./index.html">Go to home</a>
-
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
     </section>
   </body>
 </html>
